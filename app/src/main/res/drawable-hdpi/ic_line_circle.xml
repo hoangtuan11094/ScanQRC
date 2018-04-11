@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set màu nền-->
+    <solid
+        android:color="#dce2e1" >
+    </solid>
+
+    <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+<stroke
+    android:width="1dp"
+    android:color="#e2e244">
+
+</stroke>
+
+    <!-- các thuộc tính căn chỉnh-->
+
+    <!--  res/drawable/rounded_edittext.xml -->
+
+    <corners
+        android:bottomRightRadius="40dp"
+android:bottomLeftRadius="40dp"
+android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"/>
+
+
+    <!-- và đây là bán kính đường tròn ở 4 góc -->
+    <!--<corners-->
+    <!--android:radius="1000dp" >-->
+    <!--</corners>-->
+
+</shape>

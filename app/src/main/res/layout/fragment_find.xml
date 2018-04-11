@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#beafbf"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Tìm kiếm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<TextView
+    android:textColor="#252525"
+    android:textSize="12sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nhập mã code để tìm kiếm!"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_line_edit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:background="#00ffffff"
+            android:textSize="14sp"
+            android:id="@+id/edtFinds"
+            android:layout_margin="10dp"
+            android:hint="Nhập mã code tại đây"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnFinds"
+        android:textSize="12dp"
+        android:textAllCaps="false"
+        android:text="Tìm kiếm"
+        android:textColor="#ffffff"
+        android:background="@drawable/ic_line_button_findmain"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+</LinearLayout>

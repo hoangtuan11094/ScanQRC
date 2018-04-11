@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#beafbf"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Tạo QR code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:textSize="12dp"
+            android:drawablePadding="10dp"
+            android:id="@+id/btnCreateURL"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_url"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button_w"
+            android:text="Chia sẻ liên kết URL"
+            tools:ignore="RtlCompat" />
+
+        <Button
+
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_text"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button"
+            android:text="Chia sẻ text" />
+
+        <Button
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button_w"
+            android:text="Chia sẻ số điện thoại" />
+
+        <Button
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button"
+            android:text="Chia sẻ danh thiếp" />
+
+        <Button
+            android:textSize="12dp"
+            tools:ignore="RtlCompat"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button_w"
+            android:text="Chia sẻ tin nhắn" />
+
+        <Button
+            android:textSize="12dp"
+            tools:ignore="RtlCompat"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button"
+            android:text="Chia sẻ địa điểm" />
+
+        <Button
+            android:textSize="12dp"
+            tools:ignore="RtlCompat"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_line_button_w"
+            android:text="Chia sẻ kết nối wifi" />
+    </LinearLayout>
+</LinearLayout>
